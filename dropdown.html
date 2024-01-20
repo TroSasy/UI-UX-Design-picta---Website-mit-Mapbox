@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dropdown</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<style>
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 10rem;
+    z-index: 10;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+</style>
+
+<div class="dropdown">
+  <span id ="hamburg-icon">Hier könnte ein Hamburg ICON stehen!</span>
+
+  <div class="dropdown-content"> <!-- dropdown-content -->
+
+    <div class="nav-grid-container">
+      <div class="nav-grid-container-item">
+        <a href="index.html">Home</a>
+      </div>
+      <div class="nav-grid-container-item">
+        <a href="map.html">Map</a>
+      </div>
+      <div class="nav-grid-container-item">
+        <a href="tour.html">Tour</a>
+      </div>
+      <div class="nav-grid-container-item">
+        <a href="../tutorials.html">Tutorials</a>
+      </div>
+      <div class="nav-grid-container-item">
+        <a href="challenges.html">Challenges</a>
+      </div>
+      <div class="nav-grid-container-item">
+        <a href="account.html">Account</a>
+      </div>
+    </div>
+
+
+    <div class="navnotice">
+      <table>
+        <tr>
+          <td>
+            <a href="impressum.html">Impressum</a>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="impressum.html">Datenschutz</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+
+  </div> <!-- dropdown-content -->
+
+</div>
+
+</body>
+</html>
