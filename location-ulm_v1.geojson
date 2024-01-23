@@ -4,13 +4,12 @@
       "type": "Feature",
       "properties": {
         "title": "Ulmer Münster",
-        "description": "Das Ulmer Münster ist das größte Kirchengebäude in Süddeutschland und der höchste Kirchturm der Welt."
-      },
+        },
       "geometry": {
         "coordinates": [9.992555, 48.398523],
         "type": "Point"
       }
-    },
+      },
     {
       "type": "Feature",
       "properties": {
