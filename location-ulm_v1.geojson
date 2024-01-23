@@ -4,9 +4,6 @@
       "type": "Feature",
       "properties": {
         "title": "Ulmer Münster",
-        "description": "Das Ulmer Münster ist das größte Kirchengebäude in Süddeutschland und der höchste Kirchturm der Welt.",
-         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Cherry_Blossoms_and_Washington_Monument.jpg/320px-Cherry_Blossoms_and_Washington_Monument.jpg",
-         "url": "https://en.wikipedia.org/wiki/Washington,_D.C."
         },
       "geometry": {
         "coordinates": [9.992555, 48.398523],

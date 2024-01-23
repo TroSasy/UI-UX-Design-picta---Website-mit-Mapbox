@@ -63,11 +63,10 @@
                 const popup = new mapboxgl.Popup({ offset: [0, -15] })
                     .setLngLat(feature.geometry.coordinates)
                     .setHTML(
-                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p> <p><img src=${feature.properties.image}></img>$</p><p>{feature.properties.image}</p>` //<p><img src="'+e.features[0].properties.image+'"/></p>
+                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>` //<p><img src="'+e.features[0].properties.image+'"/></p>
                     )
                     .addTo(map);
             });
-
         </script>
     </div>
 

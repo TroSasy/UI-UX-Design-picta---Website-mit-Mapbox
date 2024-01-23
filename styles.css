@@ -871,8 +871,8 @@
         position: relative;
         top: 0;
         width: 66%;
-        margin-top: 16rem;
-        height: 508.8125px;
+        margin-top: 1rem;
+        height: 20rem;/*508.8125px*/
     }
     .bhero{
         position: relative;
