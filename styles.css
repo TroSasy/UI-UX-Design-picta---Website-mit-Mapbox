@@ -458,7 +458,7 @@
         margin-top:2rem;
     }
     .homegrid{
-        margin-top: 16%;
+        margin-top: 48%;
     }
     .nav-grid-container-item{
         padding: 0.5rem;
@@ -468,7 +468,7 @@
         bottom: 0;
         height: 135px;
         width: 160px;
-        border-top: 0.8px solid #000;
+        border-top: 0px solid #000;
     }
     .navnotice table{
         padding-top: 1rem;
@@ -508,6 +508,7 @@
         height: auto; /* Höhe der Bilder automatisch anpassen */
         z-index: 0;
         margin-left: -2.5rem;
+        margin-top: 18rem;
     }
     .hero {
         position: relative;
@@ -548,9 +549,10 @@
         margin-left: -1rem;
     }
     .grid-item {
-        border: black solid 0.8px;
+        border: none;
         padding: 1rem;
         grid-row: span 1; /* Standardhöhe */
+        margin-bottom: 2rem;
     }
     .grid-item-acc {
         border: black solid 0.8px;
@@ -871,6 +873,7 @@
         height: auto; /* Höhe der Bilder automatisch anpassen */
         z-index: 0;
         margin-left: -2.5rem;
+        margin-top: 0;
     }
     .hero {
         position: relative;
@@ -919,6 +922,9 @@
         padding: 1rem;
         gap: 1rem;
         border: black solid 0.8px;
+    }
+    .homegrid{
+        margin-top:16%;
     }
     /*underline unter Titel in grid-container*/
     .grid-container a {
