@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Challenge: Langzeitbelichtung</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge: Langzeitbelichtung</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,700&family=Josefin+Sans:wght@100&family=Lato:wght@100&family=Montserrat+Alternates:wght@200;300;400&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500;1,600&family=VT323&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+</head>
+<body>
+
+<div class="navbar-container"></div> <!-- Hier wird DIV Navbar eingefügt -->
+
+<main>
+  <div class="bhero">
+    <h1>Langzeitbelichtung</h1>
+  </div>
+
+  <div class="introtext">
+    <h3>Aufgabe</h3>
+    <p>Lass die Zeit einfach Mal langsam an dir vorbeigehen</p>
+  </div>
+  <button id="uploadButton">Hochladen</button>
+  <img class="chall-hero-pic"src="Bilder/langzeitbelichtung/langzeit_6._2.jpg">
+
+  <div class="bsptext">
+    <h3>
+      So Könnte dein Bild aussehen.
+    </h3>
+  </div>
+  <div class="image-grid">
+
+    <div class="grid-portfolio portrait">
+      <img src="Bilder/langzeitbelichtung/langzeit_3.JPG" alt="Hochformat Bild 1">
+    </div>
+    <div class="grid-portfolio landscape">
+      <img src="Bilder/langzeitbelichtung/langzeit_5_2.JPG" alt="Querformat Bild 1">
+    </div>
+    <div class="grid-portfolio portrait">
+      <img src="Bilder/langzeitbelichtung/langzeit_2_2.JPG" alt="Hochformat Bild 2">
+    </div>
+    <div class="grid-portfolio landscape">
+      <img src="Bilder/langzeitbelichtung/langzeit_4.JPG" alt="Querformat Bild 2">
+    </div>
+  </div>
+
+  <!-- The Modal: Do NOT INSERT ANYTHING BEHIND IT-->
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <form id="uploadForm">
+        <label for="email">E-Mail:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <input type="checkbox" id="imageUsage" name="usage[]" value="imageUsage">
+        <label for="imageUsage">Ich bestätige die Nutzung meines Bildes</label><br>
+
+        <input type="checkbox" id="emailNotification" name="usage[]" value="emailNotification">
+        <label for="emailNotification">Ich will per E-Mail benachrichtigt werden</label><br><br>
+
+
+        <input id="subbutton"type="submit" value="Absenden">
+      </form>
+    </div>
+
+
+
+
+
+  </div>
+
+</main>
+
+<footer>
+
+</footer>
+
+<script src="uploadbutton.js"></script>
+<script src="navbar.js"></script> <!-- Hier wird JS Navbar eingefügt -->
+</body>
+</html>
