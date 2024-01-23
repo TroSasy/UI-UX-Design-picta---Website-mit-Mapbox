@@ -410,6 +410,7 @@
         /*padding-bottom:1rem;*/
     }
 }
+
 /*---Mobil, Tablet_____________________________________________*/
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px){
@@ -453,7 +454,11 @@
         width: 100%;
     }
     .nav-grid-container{
-        margin-left: 2rem;
+       
+        margin-top:2rem;
+    }
+    .homegrid{
+        margin-top: 16%;
     }
     .nav-grid-container-item{
         padding: 0.5rem;
