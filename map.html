@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,700&family=Josefin+Sans:wght@100&family=Lato:wght@100&family=Montserrat+Alternates:wght@200;300;400&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,500;1,600&family=VT323&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="styles.css">
 
     <style>
@@ -28,45 +27,51 @@
 <main>
     <div>
         <div>
-            <h1 id ="titlemap" class="bhero">Map</h1>
+            <h1 id ="titlemap" class="map-hero">Map</h1>
         </div>
 
     </div>
     <div id="map">
         <script>
 
-            // access Token => 'pk...'
+            // The value for 'accessToken' begins with 'pk...'
+            //mapboxgl.accessToken = 'pk.eyJ1IjoidHJvZWdlIiwiYSI6ImNsb3pra3A5bzAyNXUyaW8xamFqN3lxNnIifQ.F6LPCneZ4tJBvzKkiUleMg';
             mapboxgl.accessToken = 'pk.eyJ1IjoidHJvZWdlIiwiYSI6ImNsb3pra3A5bzAyNXUyaW8xamFqN3lxNnIifQ.F6LPCneZ4tJBvzKkiUleMg';
             const map = new mapboxgl.Map({
                 container: 'map',
-                style: 'mapbox://styles/troege/clqxt5ptc002r01p59crm5nkz',
+                style: 'mapbox://styles/troege/clrw0skho00bs01qseqmo6dsj',
                 center: [9.99068, 48.398595],
                 zoom: 15.53,
             });
 
             /*
-            Fügt einen Event Listener der überprüft ob Maus auf Kartenelement klickt
+            Add an event listener that runs
+            when a user clicks on the map element.
             */
             map.on('click', (event) => {
                 // If the user clicked on one of your markers, get its information.
                 const features = map.queryRenderedFeatures(event.point, {
-                    layers: ['location-ulm']
+                    layers: ['location-ulm-v180124'] // replace with your layer name from tileset
                 });
                 if (!features.length) {
                     return;
                 }
                 const feature = features[0];
+                console.log(features);
+
 
                 /*
-                Pop Up fenster
+                    Create a popup, specify its options
+                    and properties, and add it to the map.
                   */
                 const popup = new mapboxgl.Popup({ offset: [0, -15] })
                     .setLngLat(feature.geometry.coordinates)
                     .setHTML(
-                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>` //<p><img src="'+e.features[0].properties.image+'"/></p>
+                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description} </p> <img src="${feature.properties.image}" style="width: 100%">`
                     )
                     .addTo(map);
             });
+
         </script>
     </div>
 

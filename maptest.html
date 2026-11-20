@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Map</title>
+    <title>maptest</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,45 +11,35 @@
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css' rel='stylesheet'/>
     <!---->
 
-    <link rel="stylesheet" href="styles.css">
+               <link rel="stylesheet" href="styles.css">
 
-    <style>
-        #titlemap {
-            position: absolute;
-            z-index: 10;
-        }
-        #map {
-            position: absolute;
-            top: 13.2rem; /*6.795rem*/
-            bottom: 0;
-            width: 87.8%;
-            margin-left: -2.5rem;
-            margin-right: -2.5rem;
-            z-index: 0;
-            border: black solid 1px;
-        }
-    </style>
+                <style>
+                    #titlemap {
+                    position: absolute;
+                    z-index: 10;
+                }
+                    #map {
+                    position: absolute;
+                    top: 13.2rem; /*6.795rem*/
+                    bottom: 0;
+                    width: 87.8%;
+                    margin-left: -2.5rem;
+                    margin-right: -2.5rem;
+                    z-index: 0;
+                    border: black solid 1px;
+                }
+                </style>
 
-</head>
-<body>
-
-<div class="navbar-container"></div> <!-- Hier wird DIV Navbar eingefügt -->
-
-<main>
-    <div>
-        <div>
-            <h1 id ="titlemap">Map</h1>
-        </div>
-
-    </div>
     <div id="map">
         <script>
 
             // The value for 'accessToken' begins with 'pk...'
+            //mapboxgl.accessToken = 'pk.eyJ1IjoidHJvZWdlIiwiYSI6ImNsb3pra3A5bzAyNXUyaW8xamFqN3lxNnIifQ.F6LPCneZ4tJBvzKkiUleMg';
             mapboxgl.accessToken = 'pk.eyJ1IjoidHJvZWdlIiwiYSI6ImNsb3pra3A5bzAyNXUyaW8xamFqN3lxNnIifQ.F6LPCneZ4tJBvzKkiUleMg';
             const map = new mapboxgl.Map({
                 container: 'map',
-                style: 'mapbox://styles/troege/clqxt5ptc002r01p59crm5nkz',
+                //style: 'mapbox://styles/troege/clqxt5ptc002r01p59crm5nkz',
+                style: 'mapbox://styles/troege/clrw0skho00bs01qseqmo6dsj',
                 center: [9.99068, 48.398595],
                 zoom: 15.53,
             });
@@ -61,12 +51,14 @@
             map.on('click', (event) => {
                 // If the user clicked on one of your markers, get its information.
                 const features = map.queryRenderedFeatures(event.point, {
-                    layers: ['location-ulm'] // replace with your layer name
+                    layers: ['ulm-locations-v27012024'] // replace with your layer name from tileset
                 });
                 if (!features.length) {
                     return;
                 }
                 const feature = features[0];
+                console.log(features);
+
 
                 /*
                     Create a popup, specify its options
@@ -75,13 +67,13 @@
                 const popup = new mapboxgl.Popup({ offset: [0, -15] })
                     .setLngLat(feature.geometry.coordinates)
                     .setHTML(
-                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
+                        `<h3>${feature.properties.title}</h3><p>${feature.properties.description} </p> <img src="${feature.properties.image}" style="width: 100%">`
                     )
                     .addTo(map);
             });
 
         </script>
-
+    </div>
 
     </div>
 

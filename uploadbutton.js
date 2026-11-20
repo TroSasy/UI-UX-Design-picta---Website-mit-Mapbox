@@ -3,7 +3,7 @@ const button = document.getElementById('uploadButton');
 
 // Modal und Schließen-Element holen
 const modal = document.getElementById('myModal');
-const closeBtn = document.getElementsByClassName('close')[0];
+const closeBtn = document.getElementsByClassName('challenges-close')[0];
 
 // Formular-Element holen
 const form = document.getElementById('uploadForm');

@@ -4,6 +4,8 @@
       "type": "Feature",
       "properties": {
         "title": "Ulmer Münster",
+        "description": "Das Ulmer Münster ist das größte Kirchengeböude der Welt.",
+        "image": "Bilder/map/locations/map_location-15.jpg"
         },
       "geometry": {
         "coordinates": [9.992555, 48.398523],
@@ -14,7 +16,8 @@
       "type": "Feature",
       "properties": {
         "title": "Theater Ulm",
-        "description": "Das Theater Ulm ist ein Drei-Sparten-Theater mit Musiktheater, Schauspiel und Ballett."
+        "description": "Das Theater Ulm ist ein Drei-Sparten-Theater mit Musiktheater, Schauspiel und Ballett.",
+        "image": "Bilder/map/locations/map_location-25.jpg"
       },
       "geometry": {
         "coordinates": [9.98658, 48.40151],
@@ -25,7 +28,8 @@
       "type": "Feature",
       "properties": {
         "title": "Stadthaus Ulm",
-        "description": "Das Stadthaus Ulm ist ein Veranstaltungshaus in Ulm."
+        "description": "Das Stadthaus Ulm ist ein Veranstaltungshaus in Ulm.",
+        "image": "Bilder/map/locations/map_location-14.jpg"
       },
       "geometry": {
         "coordinates": [9.990842, 48.398074],
@@ -36,7 +40,8 @@
       "type": "Feature",
       "properties": {
         "title": "Rathaus Ulm",
-        "description": "Das Rathaus Ulm präsentiert auf der Fassade die Geschichte der Stadt."
+        "description": "Das Rathaus Ulm präsentiert auf der Fassade die Geschichte der Stadt.",
+        "image": "Bilder/map/locations/map_location-16.jpg"
       },
       "geometry": {
         "coordinates": [9.993326, 48.396974],
@@ -47,7 +52,8 @@
       "type": "Feature",
       "properties": {
         "title": "Donauwiese",
-        "description": "Die Donauwiese ist eine große Grünfläche am Ufer der Donau und lädt zum erholen ein."
+        "description": "Die Donauwiese ist eine große Grünfläche am Ufer der Donau und lädt zum erholen ein.",
+        "image": "Bilder/map/locations/map_location-20.jpg"
       },
       "geometry": {
         "coordinates": [9.992639, 48.395388],
@@ -58,7 +64,8 @@
       "type": "Feature",
       "properties": {
         "title": "Schiefes Haus",
-        "description": "Das Schiefe Haus ist ein historisches Fachwerkhaus in Ulm und weist eine Neigung von 9°-10° auf."
+        "description": "Das Schiefe Haus ist ein historisches Fachwerkhaus in Ulm und weist eine Neigung von 9°-10° auf.",
+        "image": "Bilder/map/locations/map_location-19.jpg"
       },
       "geometry": {
         "coordinates": [9.991124, 48.395641],
@@ -69,7 +76,8 @@
       "type": "Feature",
       "properties": {
         "title": "Häuslesbrücke über die Blau",
-        "description": "Die Häuslesbrücke verbindet die Ulmer Altstadt mit dem Fischerviertel."
+        "description": "Die Häuslesbrücke verbindet die Ulmer Altstadt mit dem Fischerviertel.",
+        "image": "Bilder/map/locations/map_location-18.jpg"
       },
       "geometry": {
         "coordinates": [9.990494, 48.395520],
@@ -80,7 +88,8 @@
       "type": "Feature",
       "properties": {
         "title": "Stadtbibliothek Ulm",
-        "description": "Der pyramidenförmige Bau der Stadtbibliothek Ulm ist ein architektonisches Highlight für Fotografen."
+        "description": "Der pyramidenförmige Bau der Stadtbibliothek Ulm ist ein architektonisches Highlight für Fotografen.",
+        "image": ""
       },
       "geometry": {
         "coordinates": [9.992647, 48.396713],
@@ -91,7 +100,8 @@
       "type": "Feature",
       "properties": {
         "title": "Metzgerturm",
-        "description": "Hinter dem schiefen Turm liegen viele Legenden, die sich um den Metzgerturm ranken."
+        "description": "Hinter dem schiefen Turm liegen viele Legenden, die sich um den Metzgerturm ranken.",
+        "image": "Bilder/map/locations/map_location-21.jpg"
       },
       "geometry": {
         "coordinates": [9.993377, 48.3960245],
@@ -102,7 +112,8 @@
       "type": "Feature",
       "properties": {
       "title": "Stadtmauer",
-      "description": "Die Stadtmauer ist ein Überbleibsel der ehemaligen Stadtbefestigung und ist heutzutage ein beliebter Promenadenweg."
+      "description": "Die Stadtmauer ist ein Überbleibsel der ehemaligen Stadtbefestigung und ist heutzutage ein beliebter Promenadenweg.",
+        "image": "Bilder/map/locations/map_location-20.jpg"
     },
      "geometry": {
       "coordinates": [9.992352, 48.395522],
@@ -113,7 +124,8 @@
       "type": "Feature",
       "properties": {
       "title": "Rosengarten",
-      "description": "Der Rosengarten ist nicht nur ein schöner Treffpunkt sondern auch ein beliebter Ort für Naturfotografen."
+      "description": "Der Rosengarten ist nicht nur ein schöner Treffpunkt sondern auch ein beliebter Ort für Naturfotografen.",
+        "image": "Bilder/map/locations/map_location-22.jpg"
     },
      "geometry": {
       "coordinates": [9.997915, 48.396770],
@@ -124,7 +136,8 @@
       "type": "Feature",
       "properties": {
       "title": "Berblinger Turm",
-      "description": "Ein Denkmal für den Flugpionier Albrecht Ludwig Berblinger, der mit seinem Fluggerät in die Donau stürzte."
+      "description": "Ein Denkmal für den Flugpionier Albrecht Ludwig Berblinger, der mit seinem Fluggerät in die Donau stürzte.",
+        "image": "Bilder/map/locations/map_location-23.jpg"
     },
      "geometry": {
       "coordinates": [10.000024, 48.397527],
@@ -135,7 +148,8 @@
       "type": "Feature",
       "properties": {
       "title": "Alter Friedhof",
-      "description": "Heutzutage eine Parkanlage für die Erholung"
+      "description": "Heutzutage eine Parkanlage für die Erholung",
+        "image": ""
     },
      "geometry": {
       "coordinates": [9.996861, 48.404363],
@@ -146,7 +160,8 @@
       "type": "Feature",
       "properties": {
       "title": "Wilhelmsburg",
-      "description": "Einst eine Festungsanlage, heute ein Ort für Events und Veranstaltungen die zum Miteinander einladen."
+      "description": "Einst eine Festungsanlage, heute ein Ort für Events und Veranstaltungen die zum Miteinander einladen.",
+      "image": ""
     },
      "geometry": {
       "coordinates": [9.982914, 48.411848],
@@ -157,7 +172,8 @@
       "type": "Feature",
       "properties": {
       "title": "Kinlesbergbastion",
-      "description": "Ein Teil der früheren Festungsanlage die sich durch Ulm ziehen. Heutzutage ein Ort für kunst, Miteinander und Erholung."
+      "description": "Ein Teil der früheren Festungsanlage die sich durch Ulm ziehen. Heutzutage ein Ort für kunst, Miteinander und Erholung.",
+        "image": "Bilder/map/locations/map_location-26.jpg"
     },
      "geometry": {
       "coordinates": [9.980473, 48.407130],
@@ -168,7 +184,8 @@
       "type": "Feature",
       "properties": {
       "title": "Blaubeurer Tor",
-      "description": "Ein unscheinbares Tor inmitten eines vielbefahrenen Kreisverkehrs."
+      "description": "Ein unscheinbares Tor inmitten eines vielbefahrenen Kreisverkehrs.",
+        "image": "Bilder/map/locations/map_location-24.jpg"
     },
      "geometry": {
       "coordinates": [9.978287, 48.401945],
@@ -179,7 +196,8 @@
       "type": "Feature",
       "properties": {
       "title": "Ehinger Tor",
-      "description": "Gehört wie das Blaubeurer Tor zur der ehemaligen Bundesfestung Ulm."
+      "description": "Gehört wie das Blaubeurer Tor zur der ehemaligen Bundesfestung Ulm.",
+      "image": ""
     },
      "geometry": {
       "coordinates": [9.980425, 48.394376],
@@ -190,7 +208,8 @@
       "type": "Feature",
       "properties": {
       "title": "Kienlesbrücke",
-      "description": "Die Kienlesbrücke ist eine Stahlbrücke für  Fußgänger und Straßenbahn. Sie bietet außerdem einen schönen Blick auf das Ulmer Münster."
+      "description": "Die Kienlesbrücke ist eine Stahlbrücke für  Fußgänger und Straßenbahn. Sie bietet außerdem einen schönen Blick auf das Ulmer Münster.",
+      "image": ""
     },
      "geometry": {
       "coordinates": [9.982662, 48.405197],
@@ -201,7 +220,8 @@
       "type": "Feature",
       "properties": {
       "title": "Neutorbrücke",
-      "description": "Die Neutorbrücke verbindet das Stadtzentrum mit dem Kienlesberg und dem Michelberg. Außerdem bietet sie sich als ein schönes Fotomotiv an."
+      "description": "Die Neutorbrücke verbindet das Stadtzentrum mit dem Kienlesberg und dem Michelberg. Außerdem bietet sie sich als ein schönes Fotomotiv an.",
+        "image": "Bilder/map/locations/map_location-27.jpg"
     },
      "geometry": {
       "coordinates": [9.982662, 48.4051977],
@@ -212,7 +232,8 @@
       "type": "Feature",
       "properties": {
       "title": "HfG-Archiv Ulm",
-      "description": "Das HfG-Archiv Ulm ist ein Museum über die Geschichte der ehemaligen Hochschule für Gestaltung Ulm. Ihr Bestand ist ästhetisch und historisch wertvoll."
+      "description": "Das HfG-Archiv Ulm ist ein Museum über die Geschichte der ehemaligen Hochschule für Gestaltung Ulm. Ihr Bestand ist ästhetisch und historisch wertvoll.",
+      "image": ""
     },
      "geometry": {
       "coordinates": [9.94876, 48.381332],
@@ -223,7 +244,8 @@
       "type": "Feature",
       "properties": {
       "title": "Panorama Aussichtspunkt Oberberghof",
-      "description": "Hier hat man ein schönes Panorama über die Stadt Ulm und Neu-Ulm. Mit einem passenden Objektiv lässt sich die Szenerie fotografisch gut einfangen."
+      "description": "Hier hat man ein schönes Panorama über die Stadt Ulm und Neu-Ulm. Mit einem passenden Objektiv lässt sich die Szenerie fotografisch gut einfangen.",
+      "image": ""
     },
      "geometry": {
       "coordinates": [9.954093, 48.416596],
@@ -234,7 +256,8 @@
           "type": "Feature",
           "properties": {
           "title": "Ruine Artillerieraum 15",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.954399, 48.416826],
@@ -245,7 +268,8 @@
           "type": "Feature",
           "properties": {
           "title": "Ulmer Höhenweg, Eselsberg",
-          "description": "Ein schöner Laufweg mit Panoramablick über Ulm und Neu-Ulm."
+          "description": "Ein schöner Laufweg mit Panoramablick über Ulm und Neu-Ulm.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.939567, 48.417296],
@@ -256,7 +280,8 @@
           "type": "Feature",
           "properties": {
           "title": "Ulmer Spatz",
-          "description": "Der Ulmer Spatz ist ein Wahrzeichen der Stadt Ulm."
+          "description": "Der Ulmer Spatz ist ein Wahrzeichen der Stadt Ulm.",
+        "image": "Bilder/map/locations/map_location-17.jpg"
         },
          "geometry": {
           "coordinates": [9.990126, 48.395457],
@@ -267,7 +292,8 @@
           "type": "Feature",
           "properties": {
           "title": "Zeughaus",
-          "description": "Das Zeughaus ist ein ehemaliges Waffenlager und heutzutage ein Veranstaltungsort."
+          "description": "Das Zeughaus ist ein ehemaliges Waffenlager und heutzutage ein Veranstaltungsort.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [10.001003, 48.400797],
@@ -278,7 +304,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Oberer Eselsberg",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.953791, 48.425862],
@@ -289,7 +316,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Unterer Eselsberg",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.963284, 48.410539],
@@ -300,7 +328,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Oberer Kuhberg",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.950126, 48.382108],
@@ -311,7 +340,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Unterer Kuhberg",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.970164, 48.384555],
@@ -322,7 +352,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Albeck",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [10.001314, 48.415231],
@@ -333,7 +364,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Safranberg",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [10.008958, 48.416420],
@@ -344,7 +376,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Söflinger Turm",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.955512, 48.404588],
@@ -355,7 +388,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Friedrichsau",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [10.013622, 48.406109],
@@ -366,7 +400,8 @@
           "type": "Feature",
           "properties": {
           "title": "Fort Örlinger Turm",
-          "description": "Ein Überbleibsel der militärischen Geschichte Ulms."
+          "description": "Ein Überbleibsel der militärischen Geschichte Ulms.",
+          "image": ""
         },
          "geometry": {
           "coordinates": [9.992752, 48.417373],

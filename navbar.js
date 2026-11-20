@@ -15,11 +15,12 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function highlightCurrentLink() {
-    // Holt alle Links in der Navbar
+    // Hole alle Links in der Navbar
     const navLinks = document.querySelectorAll('.nav-grid-container-item a');
 
     // Geht durch jeden Link und überprüfe, ob die URL mit dem href übereinstimmt
     navLinks.forEach(link => {
+        // Überprüft, ob die URL des Links mit der aktuellen Seiten-URL übereinstimmt
         if (link.href === window.location.href) {
             // Hervorhebe den Link
             link.style.fontWeight = 'bold'; //fett
